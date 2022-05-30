@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.googlelens">
+
+    <!-- below line is use to add camera feature in our app -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" /> <!-- permission for internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 수정 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="카메라 백과사전"
+        android:roundIcon="@drawable/images"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoogleLens">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 수정 -->
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+    </application>
+
+</manifest>
