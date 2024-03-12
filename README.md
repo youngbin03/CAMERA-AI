@@ -8,5 +8,4 @@
 <img src = "https://github.com/youngbin03/CAMERA-ENCYCLOPEDIA/assets/87307678/0200ff36-bd39-4f6d-9710-28c0072fd00b" width="200" height="400"/>
 <img src = "https://github.com/youngbin03/CAMERA-ENCYCLOPEDIA/assets/87307678/2efa10e4-a023-4880-9a3a-aaf358c4683e" width="200" height="400"/>
 
-<img src = "https://github.com/youngbin03/CAMERA-AI/assets/87307678/9aae918d-6893-4720-b6b5-4b57fe484a4d" width="200" height="400"/>
-
+<img src = "https://github.com/youngbin03/CAMERA-AI/assets/87307678/7c443f02-35c9-4c2e-824b-9523d65ac983" width="200"/>
